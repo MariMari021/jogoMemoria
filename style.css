@@ -1,0 +1,51 @@
+body {
+    display: grid; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(Poppins-SemiBold.ttf);
+}
+
+header img {
+    width: 100px;
+    height: auto;
+
+}
+
+header {
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.divisao {
+    background-color: black;
+    height: 2px;
+}
+canvas {
+    cursor: pointer;
+}
+
+/* Estilo para as cartas */
+.cartao {
+    width: 80px;
+    height: 100px;
+    background-color: #9f549f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Estilo para cartas viradas */
+.virado {
+    background-image: url('path/to/back.jpg'); /* Imagem do verso da carta */
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: default;
+}
